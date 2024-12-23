@@ -71,7 +71,7 @@ public class CommonPanel extends JPanel {
 
         // TODO: style port_text
         this.port_text.setBounds(140, 65, 130, 20);
-        this.port_text.setText("9999");
+        this.port_text.setText("");
         this.add(this.port_text);
 
         // TODO: style pass_label
@@ -82,12 +82,12 @@ public class CommonPanel extends JPanel {
 
         // TODO: style pass_text for server panel
         this.pass_text.setBounds(140, 95, 130, 20);
-        this.pass_text.setText("123456");
+        this.pass_text.setText("");
         this.add(this.pass_text);
 
         // TODO: style pass_field for client panel
         this.pass_field.setBounds(140, 95, 130, 20);
-        this.pass_field.setText("123456");
+        this.pass_field.setText("");
         this.pass_field.setVisible(false);
         this.add(this.pass_field);
 
